@@ -1,27 +1,67 @@
-# AuthApp
+# full-stack authentication application built with Angular and NestJS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0-rc.0.
+This project provides a complete authentication system with Angular frontend and NestJS backend. It serves as a starter template for building secure web applications with user authentication capabilities.
 
-## Development server
+**Technology Stack**
+- **Angular** - Frontend framework (version 16.0.0-rc.0)
+- **NestJS** - Backend API framework
+- **TypeScript** - Development language
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Project Structure**
+```
+src/                - Application source code
+.vscode/            - Editor configuration
+```
 
-## Code scaffolding
+**Development**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Start the development server:
+```bash
+ng serve
+```
+Navigate to http://localhost:4200/. The application will automatically reload when you modify source files.
 
-## Build
+**Building the Project**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Compile the project:
+```bash
+ng build
+```
+Build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+**Code Generation**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Generate new components:
+```bash
+ng generate component component-name
+```
 
-## Running end-to-end tests
+Other available generators:
+- `ng generate directive|pipe|service|class|guard|interface|enum|module`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Testing**
 
-## Further help
+Run unit tests:
+```bash
+ng test
+```
+Executes tests via Karma test runner.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run end-to-end tests:
+```bash
+ng e2e
+```
+Requires installing a package that implements end-to-end testing capabilities.
+
+**Additional Resources**
+
+For more information about Angular CLI:
+```bash
+ng help
+```
+Check the Angular CLI Overview and Command Reference documentation.
+
+**Recent Development**
+- Environment configuration setup
+- Application routing implementation
+- Core authentication features completed
