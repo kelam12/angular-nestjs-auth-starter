@@ -59,6 +59,4 @@ For more information about Angular CLI:
 ```bash
 ng help
 ```
-
-
-
+Check the Angular CLI Overview and Command Reference documentation.
